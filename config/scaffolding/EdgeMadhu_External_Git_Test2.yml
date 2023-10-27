@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeMadhu_External_Git_Test2
+  gitServerName: Madhu_Github_Origin_Testing
+  gitUrl: https://github.com/pmsgupta/EdgeMadhu_External_Git_Test2
+  gitUsername: pmsgupta
+  gitToken: edge.scaffolding.EdgeMadhu_External_Git_Test2.Madhu_Github_Origin_Testing.gitToken
+  gitBranch: main
