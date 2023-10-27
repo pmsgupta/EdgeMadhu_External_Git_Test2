@@ -1,6 +1,15 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.madhu_external_git_test2.integrations:GetcurrentDate_Edge
+  packages:
+  - name: EdgeMadhu_External_Git_Test2
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgeMadhu_External_Git_Test2
   gitServerName: Madhu_Github_Origin_Testing
